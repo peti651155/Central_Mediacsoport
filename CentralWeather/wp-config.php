@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+ //memória limit beállítása (2.feladat)
+ define('WP_MEMORY_LIMIT', '256M');
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'CentralWeather' );
